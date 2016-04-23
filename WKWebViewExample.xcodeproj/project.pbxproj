@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		725967331CCAEC5000E38701 /* WebRequestTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRequestTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725967331CCAEC5000E38701 /* WKWebViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725967361CCAEC5000E38701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		725967381CCAEC5000E38701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7259673B1CCAEC5000E38701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		725967341CCAEC5000E38701 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				725967331CCAEC5000E38701 /* WebRequestTest3.app */,
+				725967331CCAEC5000E38701 /* WKWebViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		725967321CCAEC5000E38701 /* WebRequestTest3 */ = {
+		725967321CCAEC5000E38701 /* WKWebViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 725967451CCAEC5100E38701 /* Build configuration list for PBXNativeTarget "WebRequestTest3" */;
+			buildConfigurationList = 725967451CCAEC5100E38701 /* Build configuration list for PBXNativeTarget "WKWebViewExample" */;
 			buildPhases = (
 				7259672F1CCAEC5000E38701 /* Sources */,
 				725967301CCAEC5000E38701 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = WebRequestTest3;
+			name = WKWebViewExample;
 			productName = WebRequestTest3;
-			productReference = 725967331CCAEC5000E38701 /* WebRequestTest3.app */;
+			productReference = 725967331CCAEC5000E38701 /* WKWebViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7259672E1CCAEC5000E38701 /* Build configuration list for PBXProject "WebRequestTest3" */;
+			buildConfigurationList = 7259672E1CCAEC5000E38701 /* Build configuration list for PBXProject "WKWebViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				725967321CCAEC5000E38701 /* WebRequestTest3 */,
+				725967321CCAEC5000E38701 /* WKWebViewExample */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 				INFOPLIST_FILE = WebRequestTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmahon.WebRequestTest3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WKWebViewExample;
 			};
 			name = Debug;
 		};
@@ -266,14 +266,14 @@
 				INFOPLIST_FILE = WebRequestTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmahon.WebRequestTest3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WKWebViewExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7259672E1CCAEC5000E38701 /* Build configuration list for PBXProject "WebRequestTest3" */ = {
+		7259672E1CCAEC5000E38701 /* Build configuration list for PBXProject "WKWebViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				725967431CCAEC5000E38701 /* Debug */,
@@ -282,13 +282,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		725967451CCAEC5100E38701 /* Build configuration list for PBXNativeTarget "WebRequestTest3" */ = {
+		725967451CCAEC5100E38701 /* Build configuration list for PBXNativeTarget "WKWebViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				725967461CCAEC5100E38701 /* Debug */,
 				725967471CCAEC5100E38701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
