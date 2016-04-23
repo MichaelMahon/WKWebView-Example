@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebRequestTest3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jq2-dp-F3I">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="554"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wfg-RE-pBx" appends="YES" id="Ibl-Fb-Xee"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hJ-9B-YUv">
+                                <rect key="frame" x="20" y="562" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Z3Y-uD-p7k"/>
+                                    <constraint firstAttribute="width" constant="69" id="s3N-HZ-ulJ"/>
+                                </constraints>
+                                <state key="normal" title="Dominos"/>
+                                <connections>
+                                    <action selector="onDominosTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWH-6c-X9J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8g-Vr-XB2">
+                                <rect key="frame" x="266" y="562" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5U7-Po-ZUX"/>
+                                    <constraint firstAttribute="width" constant="69" id="B2M-Vj-Hpd"/>
+                                </constraints>
+                                <state key="normal" title="Reddit"/>
+                                <connections>
+                                    <action selector="onRedditTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDn-mp-h5C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbb-Qf-9V9">
+                                <rect key="frame" x="511" y="562" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ev8-w8-XKc"/>
+                                    <constraint firstAttribute="width" constant="69" id="g4O-6v-bIu"/>
+                                </constraints>
+                                <state key="normal" title="Google"/>
+                                <connections>
+                                    <action selector="onGoogleTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IzM-XH-8Qv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O8g-Vr-XB2" secondAttribute="bottom" constant="8" id="8X5-dq-18J"/>
+                            <constraint firstItem="gbb-Qf-9V9" firstAttribute="top" secondItem="jq2-dp-F3I" secondAttribute="bottom" constant="8" id="WKf-ja-eGQ"/>
+                            <constraint firstItem="jq2-dp-F3I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cxH-4I-bCA"/>
+                            <constraint firstItem="2hJ-9B-YUv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eO9-f3-xuI"/>
+                            <constraint firstItem="gbb-Qf-9V9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j51-E2-UhF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gbb-Qf-9V9" secondAttribute="bottom" constant="8" id="jYQ-Cd-Qz0"/>
+                            <constraint firstAttribute="trailing" secondItem="jq2-dp-F3I" secondAttribute="trailing" id="l4f-O2-xeP"/>
+                            <constraint firstItem="jq2-dp-F3I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="t8i-SI-i5a"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2hJ-9B-YUv" secondAttribute="bottom" constant="8" id="xiX-va-iZN"/>
+                            <constraint firstItem="O8g-Vr-XB2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y5k-OP-ReS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageView" destination="jq2-dp-F3I" id="h4F-lg-6ZS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="wfg-RE-pBx">
+                    <connections>
+                        <action selector="userDidSwipe:" destination="BYZ-38-t0r" id="Zjm-HE-i8r"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="366" y="427"/>
+        </scene>
+    </scenes>
+</document>
